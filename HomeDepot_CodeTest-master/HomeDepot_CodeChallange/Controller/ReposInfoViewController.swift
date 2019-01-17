@@ -47,7 +47,7 @@ class ReposInfoViewController: UIViewController, UISearchBarDelegate {
         self.repoListTableView.tableFooterView = UIView()
         
         self.repoGridCollectionView.collectionViewLayout = RepoCollectionLayout()
-        self.repoSearchBar.placeholder = "EEnter any organization or user name"
+        self.repoSearchBar.placeholder = "Enter any organization or user name"
     
     }
 
